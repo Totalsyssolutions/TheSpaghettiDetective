@@ -1,4 +1,5 @@
-FROM thespaghettidetective/ml_api:base
+#FROM thespaghettidetective/ml_api:base
+FROM raymondh2/tsdmlapi_c10:c10
 WORKDIR /app
 EXPOSE 3333
 
